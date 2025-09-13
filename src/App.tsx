@@ -8,6 +8,10 @@ import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
 import Transactions from "./pages/Transactions";
 import AIChat from "./pages/AIChat";
+import Portfolio from "./pages/Portfolio";
+import RealEstate from "./pages/RealEstate";
+import EPFCredit from "./pages/EPFCredit";
+import AssetsLiabilities from "./pages/AssetsLiabilities";
 import DashboardLayout from "./components/layout/DashboardLayout";
 import NotFound from "./pages/NotFound";
 
@@ -49,10 +53,10 @@ const App = () => (
             <Route path="dashboard" element={<Dashboard />} />
             <Route path="transactions" element={<Transactions />} />
             <Route path="ai-chat" element={<AIChat />} />
-            <Route path="portfolio" element={<div className="p-8 text-center text-muted-foreground">Portfolio page coming soon...</div>} />
-            <Route path="real-estate" element={<div className="p-8 text-center text-muted-foreground">Real Estate page coming soon...</div>} />
-            <Route path="epf-credit" element={<div className="p-8 text-center text-muted-foreground">EPF & Credit page coming soon...</div>} />
-            <Route path="assets-liabilities" element={<div className="p-8 text-center text-muted-foreground">Assets & Liabilities page coming soon...</div>} />
+            <Route path="portfolio" element={<Portfolio />} />
+            <Route path="real-estate" element={<RealEstate />} />
+            <Route path="epf-credit" element={<EPFCredit />} />
+            <Route path="assets-liabilities" element={<AssetsLiabilities />} />
           </Route>
           <Route path="*" element={<NotFound />} />
         </Routes>

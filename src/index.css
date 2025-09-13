@@ -7,7 +7,7 @@
 @layer base {
   :root {
     /* Base Colors - Professional Finance Theme */
-    --background: 248 250 252;
+    --background: 220 20% 97%;
     --foreground: 203 23% 30%;
 
     /* Card System */
